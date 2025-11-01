@@ -1,0 +1,781 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Calendar 2025</title>
+  <style>
+    :root {
+      --primary-color: #6a11cb;
+      --background-color: #f0f2f5;
+      --surface-color: #ffffff;
+      --shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+      --border-radius: 12px;
+    }
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: var(--background-color);
+      margin: 0;
+      padding: 2rem 1rem;
+    }
+    .back-link {
+      display: block;
+      text-align: center;
+      margin-bottom: 2rem;
+      font-weight: 600;
+      font-size: 1.1rem;
+      color: var(--primary-color);
+    }
+    .calendar-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 2rem;
+    }
+    .calendar-table {
+      border-collapse: collapse;
+      width: 100%;
+      max-width: 400px;
+      background-color: var(--surface-color);
+      box-shadow: var(--shadow);
+      border-radius: var(--border-radius);
+      overflow: hidden; /* Ensures border-radius is respected by children */
+    }
+    .calendar-table th, .calendar-table td {
+      border: 1px solid #eee;
+      padding: 10px;
+      text-align: center;
+    }
+    .month-header { color: white; }
+    .empty-day { background-color: #f8f9fa; }
+  </style>
+</head>
+<body>
+  <a href="./portolio.html" class="back-link">← Back to Portfolio</a>
+  <div class="calendar-container">
+<table class="calendar-table">
+  <tr><th colspan="7" class="month-header" style="background-color: pink">January 2025</th></tr>
+   <tr>
+    <th bgcolor="lightcoral">Sun</th>
+    <th bgcolor="lightblue">Mon</th>
+    <th bgcolor="lightblue">Tue</th>
+    <th bgcolor="lightblue">Wed</th>
+    <th bgcolor="lightblue">Thu</th>
+    <th bgcolor="lightblue">Fri</th>
+    <th bgcolor="lightblue">Sat</th>
+  </tr>
+  <tr>
+    <td class="empty-day"></td>
+    <td class="empty-day"></td>
+    <td class="empty-day"></td>
+    <td class="weekend" bgcolor="lightcoral">1</td>
+    <td class="weekday" bgcolor="lightblue">2</td>
+    <td class="weekday" bgcolor="lightblue">3</td>
+    <td class="weekday" bgcolor="lightblue">4</td>
+  </tr>
+  <tr>
+    <td class="weekend" bgcolor="lightcoral">5</td>
+    <td class="weekday" bgcolor="lightblue">6</td>
+    <td class="weekday" bgcolor="lightblue">7</td>
+    <td class="weekday" bgcolor="lightblue">8</td>
+    <td class="weekday" bgcolor="lightblue">9</td>
+    <td class="weekday" bgcolor="lightblue">10</td>
+    <td class="weekday" bgcolor="lightblue">11</td>
+  </tr>
+  <tr>
+    <td class="weekend" bgcolor="lightcoral">12</td>
+    <td class="weekday" bgcolor="lightblue">13</td>
+    <td class="weekday" bgcolor="lightblue">14</td>
+    <td class="weekday" bgcolor="lightblue">15</td>
+    <td class="weekday" bgcolor="lightblue">16</td>
+    <td class="weekday" bgcolor="lightblue">17</td>
+    <td class="weekday" bgcolor="lightblue">18</td>
+  </tr>
+  <tr>
+    <td class="weekend" bgcolor="lightcoral">19</td>
+    <td class="weekday" bgcolor="lightblue">20</td>
+    <td class="weekday" bgcolor="lightblue">21</td>
+    <td class="weekday" bgcolor="lightblue">22</td>
+    <td class="weekday" bgcolor="lightblue">23</td>
+    <td class="weekday" bgcolor="lightblue">24</td>
+    <td class="weekday" bgcolor="lightblue">25</td>
+  </tr>
+  <tr>
+    <td class="weekend" bgcolor="lightcoral">26</td>
+    <td class="weekend" bgcolor="lightcoral">27</td>
+    <td class="weekday" bgcolor="lightblue">28</td>
+    <td class="weekday" bgcolor="lightblue">29</td>
+    <td class="weekend" bgcolor="lightcoral">30</td>
+    <td class="weekday" bgcolor="lightblue">31</td>
+    <td class="empty-day"></td>
+  </tr>
+</table>
+
+<table class="calendar-table">
+  <tr><th colspan="7" class="month-header" style="background-color: violet;">February 2025</th></tr>
+  <tr>
+    <th bgcolor="lightcoral">Sun</th>
+    <th bgcolor="lightblue">Mon</th>
+    <th bgcolor="lightblue">Tue</th>
+    <th bgcolor="lightblue">Wed</th>
+    <th bgcolor="lightblue">Thu</th>
+    <th bgcolor="lightblue">Fri</th>
+    <th bgcolor="lightblue">Sat</th>
+  </tr>
+  <tr>
+    <td class="empty-day"></td>
+    <td class="empty-day"></td>
+    <td class="empty-day"></td>
+    <td class="empty-day"></td>
+    <td class="empty-day"></td>
+    <td class="empty-day"></td>
+    <td class="weekday" bgcolor="lightblue">1</td>
+  </tr>
+  <tr>
+    <td class="weekend" bgcolor="lightcoral">2</td>
+    <td class="weekday" bgcolor="lightblue">3</td>
+    <td class="weekday" bgcolor="lightblue">4</td>
+    <td class="weekday" bgcolor="lightblue">5</td>
+    <td class="weekday" bgcolor="lightblue">6</td>
+    <td class="weekday" bgcolor="lightblue">7</td>
+    <td class="weekday" bgcolor="lightblue">8</td>
+  </tr>
+  <tr>
+    <td class="weekend" bgcolor="lightcoral">9</td>
+    <td class="weekday" bgcolor="lightblue">10</td>
+    <td class="weekday" bgcolor="lightblue">11</td>
+    <td class="weekday" bgcolor="lightblue">12</td>
+    <td class="weekday" bgcolor="lightblue">13</td>
+    <td class="weekday" bgcolor="lightblue">14</td>
+    <td class="weekday" bgcolor="lightblue">15</td>
+  </tr>
+  <tr>
+    <td class="weekend" bgcolor="lightcoral">16</td>
+    <td class="weekday" bgcolor="lightblue">17</td>
+    <td class="weekday" bgcolor="lightblue">18</td>
+    <td class="weekday" bgcolor="lightblue">19</td>
+    <td class="weekday" bgcolor="lightblue">20</td>
+    <td class="weekday" bgcolor="lightblue">21</td>
+    <td class="weekday" bgcolor="lightblue">22</td>
+  </tr>
+  <tr>
+    <td class="weekend" bgcolor="lightcoral">23</td>
+    <td class="weekday" bgcolor="lightblue">24</td>
+    <td class="weekday" bgcolor="lightblue">25</td>
+    <td class="weekday" bgcolor="lightblue">26</td>
+    <td class="weekday" bgcolor="lightblue">27</td>
+    <td class="weekday" bgcolor="lightblue">28</td>
+    <td class="empty-day"></td>
+  </tr>
+</table>
+
+<table class="calendar-table">
+  <tr><th colspan="7" class="month-header" style="background-color: darkviolet;">March 2025</th></tr>
+  <tr>
+    <th bgcolor="lightcoral">Sun</th>
+    <th bgcolor="lightblue">Mon</th>
+    <th bgcolor="lightblue">Tue</th>
+    <th bgcolor="lightblue">Wed</th>
+    <th bgcolor="lightblue">Thu</th>
+    <th bgcolor="lightblue">Fri</th>
+    <th bgcolor="lightblue">Sat</th>
+  </tr>
+  <tr>
+    <td class="e"></td>
+    <td class="empty-day"></td>
+    <td class="empty-day"></td>
+    <td class="empty-day"></td>
+    <td class="empty-day"></td>
+    <td class="empty-day"></td>
+    <td class="weekday" bgcolor="lightblue">1</td>
+  </tr>
+  <tr>
+    <td class="weekend" bgcolor="lightcoral">2</td>
+    <td class="weekday" bgcolor="lightblue">3</td>
+    <td class="weekday" bgcolor="lightblue">4</td>
+    <td class="weekday" bgcolor="lightblue">5</td>
+    <td class="weekday" bgcolor="lightblue">6</td>
+    <td class="weekday" bgcolor="lightblue">7</td>
+    <td class="weekday" bgcolor="lightblue">8</td>
+  </tr>
+  <tr>
+    <td class="weekend" bgcolor="lightcoral">9</td>
+    <td class="weekday" bgcolor="lightblue">10</td>
+    <td class="weekday" bgcolor="lightblue">11</td>
+    <td class="weekday" bgcolor="lightblue">12</td>
+    <td class="weekday" bgcolor="lightblue">13</td>
+    <td class="weekday" bgcolor="lightblue">14</td>
+    <td class="weekday" bgcolor="lightblue">15</td>
+  </tr>
+  <tr>
+    <td class="weekend" bgcolor="lightcoral">16</td>
+    <td class="weekday" bgcolor="lightblue">17</td>
+    <td class="weekday" bgcolor="lightblue">18</td>
+    <td class="weekday" bgcolor="lightblue">19</td>
+    <td class="weekday" bgcolor="lightblue">20</td>
+    <td class="weekday" bgcolor="lightblue">21</td>
+    <td class="weekday" bgcolor="lightblue">22</td>
+  </tr>
+  <tr>
+    <td class="weekend" bgcolor="lightcoral">23</td>
+    <td class="weekday" bgcolor="lightblue">24</td>
+    <td class="weekday" bgcolor="lightblue">25</td>
+    <td class="weekday" bgcolor="lightblue">26</td>
+    <td class="weekday" bgcolor="lightblue">27</td>
+    <td class="weekday" bgcolor="lightblue">28</td>
+    <td class="weekday" bgcolor="lightblue">29</td>
+  </tr>
+  <tr>
+    <td class="weekend" bgcolor="lightcoral">30</td>
+    <td class="weekend" bgcolor="lightcoral">31</td>
+    <td class="empty-day"></td>
+    <td class="empty-day"></td>
+    <td class="empty-day"></td>
+    <td class="empty-day"></td>
+    <td class="empty-day"></td>
+  </tr>
+</table>
+
+<table class="calendar-table">
+  <tr><th colspan="7" class="month-header" style="background-color: darkblue;">April 2025</th></tr>
+  <tr>
+    <th bgcolor="lightcoral">Sun</th>
+    <th bgcolor="lightblue">Mon</th>
+    <th bgcolor="lightblue">Tue</th>
+    <th bgcolor="lightblue">Wed</th>
+    <th bgcolor="lightblue">Thu</th>
+    <th bgcolor="lightblue">Fri</th>
+    <th bgcolor="lightblue">Sat</th>
+  </tr>
+  <tr>
+    <td class="empty-day"></td>
+    <td class="empty-day"></td>
+    <td class="weekday" bgcolor="lightblue">1</td>
+    <td class="weekday" bgcolor="lightblue">2</td>
+    <td class="weekday" bgcolor="lightblue">3</td>
+    <td class="weekday" bgcolor="lightblue">4</td>
+    <td class="weekday" bgcolor="lightblue">5</td>
+  </tr>
+  <tr>
+    <td class="weekend" bgcolor="lightcoral">6</td>
+    <td class="weekday" bgcolor="lightblue">7</td>
+    <td class="weekday" bgcolor="lightblue">8</td>
+    <td class="weekend" bgcolor="lightcoral">9</td>
+    <td class="weekday" bgcolor="lightblue">10</td>
+    <td class="weekday" bgcolor="lightblue">11</td>
+    <td class="weekday" bgcolor="lightblue">12</td>
+  </tr>
+  <tr>
+    <td class="weekend" bgcolor="lightcoral">13</td>
+    <td class="weekday" bgcolor="lightblue">14</td>
+    <td class="weekday" bgcolor="lightblue">15</td>
+    <td class="weekday" bgcolor="lightblue">16</td>
+    <td class="weekend" bgcolor="lightcoral">17</td>
+    <td class="weekend" bgcolor="lightcoral">18</td>
+    <td class="weekend" bgcolor="lightcoral">19</td>
+  </tr>
+  <tr>
+    <td class="weekend" bgcolor="lightcoral">20</td>
+    <td class="weekday" bgcolor="lightblue">21</td>
+    <td class="weekday" bgcolor="lightblue">22</td>
+    <td class="weekday" bgcolor="lightblue">23</td>
+    <td class="weekday" bgcolor="lightblue">24</td>
+    <td class="weekday" bgcolor="lightblue">25</td>
+    <td class="weekday" bgcolor="lightblue">26</td>
+  </tr>
+  <tr>
+    <td class="weekend" bgcolor="lightcoral">27</td>
+    <td class="weekday" bgcolor="lightblue">28</td>
+    <td class="weekday" bgcolor="lightblue">29</td>
+    <td class="weekday" bgcolor="lightblue">30</td>
+    <td class="empty-day"></td>
+    <td class="empty-day"></td>
+    <td class="empty-day"></td>
+  </tr>
+</table>
+
+<table class="calendar-table">
+  <tr><th colspan="7" class="month-header" style="background-color: blue;">May 2025</th></tr>
+  <tr>
+    <th bgcolor="lightcoral">Sun</th>
+    <th bgcolor="lightblue">Mon</th>
+    <th bgcolor="lightblue">Tue</th>
+    <th bgcolor="lightblue">Wed</th>
+    <th bgcolor="lightblue">Thu</th>
+    <th bgcolor="lightblue">Fri</th>
+    <th bgcolor="lightblue">Sat</th>
+  </tr>
+  <tr>
+    <td class="empty-day"></td>
+    <td class="empty-day"></td>
+    <td class="empty-day"></td>
+    <td class="empty-day"></td>
+    <td class="weekend" bgcolor="lightcoral">1</td>
+    <td class="weekday" bgcolor="lightblue">2</td>
+    <td class="weekday" bgcolor="lightblue">3</td>
+  </tr>
+  <tr>
+    <td class="weekend" bgcolor="lightcoral">4</td>
+    <td class="weekday" bgcolor="lightblue">5</td>
+    <td class="weekday" bgcolor="lightblue">6</td>
+    <td class="weekday" bgcolor="lightblue">7</td>
+    <td class="weekday" bgcolor="lightblue">8</td>
+    <td class="weekday" bgcolor="lightblue">9</td>
+    <td class="weekday" bgcolor="lightblue">10</td>
+  </tr>
+  <tr>
+    <td class="weekend" bgcolor="lightcoral">11</td>
+    <td class="weekend" bgcolor="lightcoral">12</td>
+    <td class="weekday" bgcolor="lightblue">13</td>
+    <td class="weekday" bgcolor="lightblue">14</td>
+    <td class="weekday" bgcolor="lightblue">15</td>
+    <td class="weekday" bgcolor="lightblue">16</td>
+    <td class="weekday" bgcolor="lightblue">17</td>
+  </tr>
+  <tr>
+    <td class="weekend" bgcolor="lightcoral">18</td>
+    <td class="weekday" bgcolor="lightblue">19</td>
+    <td class="weekday" bgcolor="lightblue">20</td>
+    <td class="weekday" bgcolor="lightblue">21</td>
+    <td class="weekday" bgcolor="lightblue">22</td>
+    <td class="weekday" bgcolor="lightblue">23</td>
+    <td class="weekday" bgcolor="lightblue">24</td>
+  </tr>
+  <tr>
+    <td class="weekend" bgcolor="lightcoral">25</td>
+    <td class="weekday" bgcolor="lightblue">26</td>
+    <td class="weekday" bgcolor="lightblue">27</td>
+    <td class="weekday" bgcolor="lightblue">28</td>
+    <td class="weekday" bgcolor="lightblue">29</td>
+    <td class="weekday" bgcolor="lightblue">30</td>
+    <td class="weekday" bgcolor="lightblue">31</td>
+  </tr>
+</table>
+
+<table class="calendar-table">
+  <tr><th colspan="7" class="month-header" style="background-color: green;">June 2025</th></tr>
+  <tr>
+    <th bgcolor="lightcoral">Sun</th>
+    <th bgcolor="lightblue">Mon</th>
+    <th bgcolor="lightblue">Tue</th>
+    <th bgcolor="lightblue">Wed</th>
+    <th bgcolor="lightblue">Thu</th>
+    <th bgcolor="lightblue">Fri</th>
+    <th bgcolor="lightblue">Sat</th>
+  </tr>
+  <tr>
+    <td class="weekend" bgcolor="lightcoral">1</td>
+    <td class="weekday" bgcolor="lightblue">2</td>
+    <td class="weekday" bgcolor="lightblue">3</td>
+    <td class="weekday" bgcolor="lightblue">4</td>
+    <td class="weekday" bgcolor="lightblue">5</td>
+    <td class="weekend" bgcolor="lightcoral">6</td>
+    <td class="weekend" bgcolor="lightcoral">7</td>
+  </tr>
+  <tr>
+    <td class="weekend" bgcolor="lightcoral">8</td>
+    <td class="weekday" bgcolor="lightblue">9</td>
+    <td class="weekday" bgcolor="lightblue">10</td>
+    <td class="weekday" bgcolor="lightblue">11</td>
+    <td class="weekend" bgcolor="lightcoral">12</td>
+    <td class="weekday" bgcolor="lightblue">13</td>
+    <td class="weekday" bgcolor="lightblue">14</td>
+  </tr>
+  <tr>
+    <td class="weekend" bgcolor="lightcoral">15</td>
+    <td class="weekday" bgcolor="lightblue">16</td>
+    <td class="weekday" bgcolor="lightblue">17</td>
+    <td class="weekday" bgcolor="lightblue">18</td>
+    <td class="weekday" bgcolor="lightblue">19</td>
+    <td class="weekday" bgcolor="lightblue">20</td>
+    <td class="weekday" bgcolor="lightblue">21</td>
+  </tr>
+  <tr>
+    <td class="weekend" bgcolor="lightcoral">22</td>
+    <td class="weekday" bgcolor="lightblue">23</td>
+    <td class="weekday" bgcolor="lightblue">24</td>
+    <td class="weekday" bgcolor="lightblue">25</td>
+    <td class="weekend" bgcolor="lightcoral">26</td>
+    <td class="weekday" bgcolor="lightblue">27</td>
+    <td class="weekday" bgcolor="lightblue">28</td>
+  </tr>
+  <tr>
+    <td class="weekend" bgcolor="lightcoral">29</td>
+    <td class="weekday" bgcolor="lightblue">30</td>
+    <td class="empty-day"></td>
+    <td class="empty-day"></td>
+    <td class="empty-day"></td>
+    <td class="empty-day"></td>
+    <td class="empty-day"></td>
+  </tr>
+</table>
+
+<table class="calendar-table">
+  <tr><th colspan="7" class="month-header" style="background-color: yellowgreen;">July 2025</th></tr>
+  <tr>
+    <th bgcolor="lightcoral">Sun</th>
+    <th bgcolor="lightblue">Mon</th>
+    <th bgcolor="lightblue">Tue</th>
+    <th bgcolor="lightblue">Wed</th>
+    <th bgcolor="lightblue">Thu</th>
+    <th bgcolor="lightblue">Fri</th>
+    <th bgcolor="lightblue">Sat</th>
+  </tr>
+  <tr>
+    <td class="empty-day"></td>
+    <td class="empty-day"></td>
+    <td class="weekday" bgcolor="lightblue">1</td>
+    <td class="weekday" bgcolor="lightblue">2</td>
+    <td class="weekday" bgcolor="lightblue">3</td>
+    <td class="weekday" bgcolor="lightblue">4</td>
+    <td class="weekday" bgcolor="lightblue">5</td>
+  </tr>
+  <tr>
+    <td class="weekend" bgcolor="lightcoral">6</td>
+    <td class="weekday" bgcolor="lightblue">7</td>
+    <td class="weekday" bgcolor="lightblue">8</td>
+    <td class="weekday" bgcolor="lightblue">9</td>
+    <td class="weekday" bgcolor="lightblue">10</td>
+    <td class="weekday" bgcolor="lightblue">11</td>
+    <td class="weekday" bgcolor="lightblue">12</td>
+  </tr>
+  <tr>
+    <td class="weekend" bgcolor="lightcoral">13</td>
+    <td class="weekday" bgcolor="lightblue">14</td>
+    <td class="weekday" bgcolor="lightblue">15</td>
+    <td class="weekday" bgcolor="lightblue">16</td>
+    <td class="weekday" bgcolor="lightblue">17</td>
+    <td class="weekday" bgcolor="lightblue">18</td>
+    <td class="weekday" bgcolor="lightblue">19</td>
+  </tr>
+  <tr>
+    <td class="weekend" bgcolor="lightcoral">20</td>
+    <td class="weekday" bgcolor="lightblue">21</td>
+    <td class="weekday" bgcolor="lightblue">22</td>
+    <td class="weekday" bgcolor="lightblue">23</td>
+    <td class="weekday" bgcolor="lightblue">24</td>
+    <td class="weekday" bgcolor="lightblue">25</td>
+    <td class="weekday" bgcolor="lightblue">26</td>
+  </tr>
+  <tr>
+    <td class="weekend" bgcolor="lightcoral">27</td>
+    <td class="weekday" bgcolor="lightblue">28</td>
+    <td class="weekday" bgcolor="lightblue">29</td>
+    <td class="weekday" bgcolor="lightblue">30</td>
+    <td class="weekday" bgcolor="lightblue">31</td>
+    <td class="empty-day"></td>
+    <td class="empty-day"></td>
+  </tr>
+</table>
+
+<table class="calendar-table">
+  <tr><th colspan="7" class="month-header" style="background-color: orange;">August 2025</th></tr>
+  <tr>
+    <th bgcolor="lightcoral">Sun</th>
+    <th bgcolor="lightblue">Mon</th>
+    <th bgcolor="lightblue">Tue</th>
+    <th bgcolor="lightblue">Wed</th>
+    <th bgcolor="lightblue">Thu</th>
+    <th bgcolor="lightblue">Fri</th>
+    <th bgcolor="lightblue">Sat</th>
+  </tr>
+  <tr>
+    <td class="empty-day"></td>
+    <td class="empty-day"></td>
+    <td class="empty-day"></td>
+    <td class="empty-day"></td>
+    <td class="empty-day"></td>
+    <td class="weekday" bgcolor="lightblue">1</td>
+    <td class="weekday" bgcolor="lightblue">2</td>
+  </tr>
+  <tr>
+    <td class="weekend" bgcolor="lightcoral">3</td>
+    <td class="weekday" bgcolor="lightblue">4</td>
+    <td class="weekday" bgcolor="lightblue">5</td>
+    <td class="weekday" bgcolor="lightblue">6</td>
+    <td class="weekday" bgcolor="lightblue">7</td>
+    <td class="weekday" bgcolor="lightblue">8</td>
+    <td class="weekday" bgcolor="lightblue">9</td>
+  </tr>
+  <tr>
+    <td class="weekend" bgcolor="lightcoral">10</td>
+    <td class="weekday" bgcolor="lightblue">11</td>
+    <td class="weekday" bgcolor="lightblue">12</td>
+    <td class="weekday" bgcolor="lightblue">13</td>
+    <td class="weekday" bgcolor="lightblue">14</td>
+    <td class="weekday" bgcolor="lightblue">15</td>
+    <td class="weekday" bgcolor="lightblue">16</td>
+  </tr>
+  <tr>
+    <td class="weekend" bgcolor="lightcoral">17</td>
+    <td class="weekday" bgcolor="lightblue">18</td>
+    <td class="weekday" bgcolor="lightblue">19</td>
+    <td class="weekday" bgcolor="lightblue">20</td>
+    <td class="weekend" bgcolor="lightcoral">21</td>
+    <td class="weekday" bgcolor="lightblue">22</td>
+    <td class="weekday" bgcolor="lightblue">23</td>
+  </tr>
+  <tr>
+    <td class="weekend" bgcolor="lightcoral">24</td>
+    <td class="weekend" bgcolor="lightcoral">25</td>
+    <td class="weekday" bgcolor="lightblue">26</td>
+    <td class="weekday" bgcolor="lightblue">27</td>
+    <td class="weekday" bgcolor="lightblue">28</td>
+    <td class="weekday" bgcolor="lightblue">29</td>
+    <td class="weekday" bgcolor="lightblue">30</td>
+  </tr>
+  <tr>
+    <td class="weekend" bgcolor="lightcoral">31</td>
+    <td class="empty-day"></td>
+    <td class="empty-day"></td>
+    <td class="empty-day"></td>
+    <td class="empty-day"></td>
+    <td class="empty-day"></td>
+    <td class="empty-day"></td>
+  </tr>
+</table>
+
+<table class="calendar-table">
+  <tr><th colspan="7" class="month-header" style="background-color: #DAA520;">September 2025</th></tr>
+  <tr>
+    <th bgcolor="lightcoral">Sun</th>
+    <th bgcolor="lightblue">Mon</th>
+    <th bgcolor="lightblue">Tue</th>
+    <th bgcolor="lightblue">Wed</th>
+    <th bgcolor="lightblue">Thu</th>
+    <th bgcolor="lightblue">Fri</th>
+    <th bgcolor="lightblue">Sat</th>
+  </tr>
+  <tr>
+    <td class="empty-day"></td>
+    <td class="weekday" bgcolor="lightblue">1</td>
+    <td class="weekday" bgcolor="lightblue">2</td>
+    <td class="weekday" bgcolor="lightblue">3</td>
+    <td class="weekday" bgcolor="lightblue">4</td>
+    <td class="weekday" bgcolor="lightblue">5</td>
+    <td class="weekday" bgcolor="lightblue">6</td>
+  </tr>
+  <tr>
+    <td class="weekend" bgcolor="lightcoral">7</td>
+    <td class="weekday" bgcolor="lightblue">8</td>
+    <td class="weekday" bgcolor="lightblue">9</td>
+    <td class="weekday" bgcolor="lightblue">10</td>
+    <td class="weekday" bgcolor="lightblue">11</td>
+    <td class="weekday" bgcolor="lightblue">12</td>
+    <td class="weekday" bgcolor="lightblue">13</td>
+  </tr>
+  <tr>
+    <td class="weekend" bgcolor="lightcoral">14</td>
+    <td class="weekday" bgcolor="lightblue">15</td>
+    <td class="weekday" bgcolor="lightblue">16</td>
+    <td class="weekday" bgcolor="lightblue">17</td>
+    <td class="weekday" bgcolor="lightblue">18</td>
+    <td class="weekday" bgcolor="lightblue">19</td>
+    <td class="weekday" bgcolor="lightblue">20</td>
+  </tr>
+  <tr>
+    <td class="weekend" bgcolor="lightcoral">21</td>
+    <td class="weekday" bgcolor="lightblue">22</td>
+    <td class="weekday" bgcolor="lightblue">23</td>
+    <td class="weekday" bgcolor="lightblue">24</td>
+    <td class="weekday" bgcolor="lightblue">25</td>
+    <td class="weekday" bgcolor="lightblue">26</td>
+    <td class="weekday" bgcolor="lightblue">27</td>
+  </tr>
+  <tr>
+    <td class="weekend" bgcolor="lightcoral">28</td>
+    <td class="weekday" bgcolor="lightblue">29</td>
+    <td class="weekday" bgcolor="lightblue">30</td>
+    <td class="empty-day"></td>
+    <td class="empty-day"></td>
+    <td class="empty-day"></td>
+    <td class="empty-day"></td>
+  </tr>
+</table>
+
+<table class="calendar-table">
+  <tr><th colspan="7" class="month-header" style="background-color: orange;">October 2025</th></tr>
+  <tr>
+    <th bgcolor="lightcoral">Sun</th>
+    <th bgcolor="lightblue">Mon</th>
+    <th bgcolor="lightblue">Tue</th>
+    <th bgcolor="lightblue">Wed</th>
+    <th bgcolor="lightblue">Thu</th>
+    <th bgcolor="lightblue">Fri</th>
+    <th bgcolor="lightblue">Sat</th>
+  </tr>
+  <tr>
+    <td class="empty-day"></td>
+    <td class="empty-day"></td>
+    <td class="empty-day"></td>
+    <td class="weekday" bgcolor="lightblue">1</td>
+    <td class="weekday" bgcolor="lightblue">2</td>
+    <td class="weekday" bgcolor="lightblue">3</td>
+    <td class="weekday" bgcolor="lightblue">4</td>
+  </tr>
+  <tr>
+    <td class="weekend" bgcolor="lightcoral">5</td>
+    <td class="weekday" bgcolor="lightblue">6</td>
+    <td class="weekday" bgcolor="lightblue">7</td>
+    <td class="weekday" bgcolor="lightblue">8</td>
+    <td class="weekday" bgcolor="lightblue">9</td>
+    <td class="weekday" bgcolor="lightblue">10</td>
+    <td class="weekday" bgcolor="lightblue">11</td>
+  </tr>
+  <tr>
+    <td class="weekend" bgcolor="lightcoral">12</td>
+    <td class="weekday" bgcolor="lightblue">13</td>
+    <td class="weekday" bgcolor="lightblue">14</td>
+    <td class="weekday" bgcolor="lightblue">15</td>
+    <td class="weekday" bgcolor="lightblue">16</td>
+    <td class="weekday" bgcolor="lightblue">17</td>
+    <td class="weekday" bgcolor="lightblue">18</td>
+  </tr>
+  <tr>
+    <td class="weekend" bgcolor="lightcoral">19</td>
+    <td class="weekday" bgcolor="lightblue">20</td>
+    <td class="weekday" bgcolor="lightblue">21</td>
+    <td class="weekday" bgcolor="lightblue">22</td>
+    <td class="weekday" bgcolor="lightblue">23</td>
+    <td class="weekday" bgcolor="lightblue">24</td>
+    <td class="weekday" bgcolor="lightblue">25</td>
+  </tr>
+  <tr>
+    <td class="weekend" bgcolor="lightcoral">26</td>
+    <td class="weekday" bgcolor="lightblue">27</td>
+    <td class="weekday" bgcolor="lightblue">28</td>
+    <td class="weekday" bgcolor="lightblue">29</td>
+    <td class="weekday" bgcolor="lightblue">30</td>
+    <td class="weekend" bgcolor="lightcoral">31</td>
+    <td class="empty-day"></td>
+  </tr>
+</table>
+
+<table class="calendar-table">
+  <tr><th colspan="7" class="month-header" style="background-color: #FF4500;">November 2025</th></tr>
+  <tr>
+    <th bgcolor="lightcoral">Sun</th>
+    <th bgcolor="lightblue">Mon</th>
+    <th bgcolor="lightblue">Tue</th>
+    <th bgcolor="lightblue">Wed</th>
+    <th bgcolor="lightblue">Thu</th>
+    <th bgcolor="lightblue">Fri</th>
+    <th bgcolor="lightblue">Sat</th>
+  </tr>
+  <tr>
+    <td class="empty-day"></td>
+    <td class="empty-day"></td>
+    <td class="empty-day"></td>
+    <td class="empty-day"></td>
+    <td class="empty-day"></td>
+    <td class="empty-day"></td>
+    <td class="weekend" bgcolor="lightcoral">1</td>
+  </tr>
+  <tr>
+    <td class="weekend" bgcolor="lightcoral">2</td>
+    <td class="weekday" bgcolor="lightblue">3</td>
+    <td class="weekday" bgcolor="lightblue">4</td>
+    <td class="weekday" bgcolor="lightblue">5</td>
+    <td class="weekday" bgcolor="lightblue">6</td>
+    <td class="weekday" bgcolor="lightblue">7</td>
+    <td class="weekday" bgcolor="lightblue">8</td>
+  </tr>
+  <tr>
+    <td class="weekend" bgcolor="lightcoral">9</td>
+    <td class="weekday" bgcolor="lightblue">10</td>
+    <td class="weekday" bgcolor="lightblue">11</td>
+    <td class="weekday" bgcolor="lightblue">12</td>
+    <td class="weekday" bgcolor="lightblue">13</td>
+    <td class="weekday" bgcolor="lightblue">14</td>
+    <td class="weekday" bgcolor="lightblue">15</td>
+  </tr>
+  <tr>
+    <td class="weekend" bgcolor="lightcoral">16</td>
+    <td class="weekday" bgcolor="lightblue">17</td>
+    <td class="weekday" bgcolor="lightblue">18</td>
+    <td class="weekday" bgcolor="lightblue">19</td>
+    <td class="weekday" bgcolor="lightblue">20</td>
+    <td class="weekday" bgcolor="lightblue">21</td>
+    <td class="weekday" bgcolor="lightblue">22</td>
+  </tr>
+  <tr>
+    <td class="weekend" bgcolor="lightcoral">23</td>
+    <td class="weekday" bgcolor="lightblue">24</td>
+    <td class="weekday" bgcolor="lightblue">25</td>
+    <td class="weekday" bgcolor="lightblue">26</td>
+    <td class="weekday" bgcolor="lightblue">27</td>
+    <td class="weekday" bgcolor="lightblue">28</td>
+    <td class="weekday" bgcolor="lightblue">29</td>
+  </tr>
+  <tr>
+    <td class="weekend" bgcolor="lightcoral">30</td>
+    <td class="empty-day"></td>
+    <td class="empty-day"></td>
+    <td class="empty-day"></td>
+    <td class="empty-day"></td>
+    <td class="empty-day"></td>
+    <td class="empty-day"></td>
+  </tr>
+</table>
+
+<table class="calendar-table">
+  <tr><th colspan="7" class="month-header" style="background-color: red;">December 2025</th></tr>
+  <tr>
+    <th bgcolor="lightcoral">Sun</th>
+    <th bgcolor="lightblue">Mon</th>
+    <th bgcolor="lightblue">Tue</th>
+    <th bgcolor="lightblue">Wed</th>
+    <th bgcolor="lightblue">Thu</th>
+    <th bgcolor="lightblue">Fri</th>
+    <th bgcolor="lightblue">Sat</th>
+  </tr>
+  <tr>
+    <td class="empty-day"></td>
+    <td class="weekday" bgcolor="lightblue">1</td>
+    <td class="weekday" bgcolor="lightblue">2</td>
+    <td class="weekday" bgcolor="lightblue">3</td>
+    <td class="weekday" bgcolor="lightblue">4</td>
+    <td class="weekday" bgcolor="lightblue">5</td>
+    <td class="weekday" bgcolor="lightblue">6</td>
+  </tr>
+  <tr>
+    <td class="weekend" bgcolor="lightcoral">7</td>
+    <td class="weekday" bgcolor="lightblue">8</td>
+    <td class="weekday" bgcolor="lightblue">9</td>
+    <td class="weekday" bgcolor="lightblue">10</td>
+    <td class="weekday" bgcolor="lightblue">11</td>
+    <td class="weekday" bgcolor="lightblue">12</td>
+    <td class="weekday" bgcolor="lightblue">13</td>
+  </tr>
+  <tr>
+    <td class="weekend" bgcolor="lightcoral">14</td>
+    <td class="weekday" bgcolor="lightblue">15</td>
+    <td class="weekday" bgcolor="lightblue">16</td>
+    <td class="weekday" bgcolor="lightblue">17</td>
+    <td class="weekday" bgcolor="lightblue">18</td>
+    <td class="weekday" bgcolor="lightblue">19</td>
+    <td class="weekday" bgcolor="lightblue">20</td>
+  </tr>
+  <tr>
+    <td class="weekend" bgcolor="lightcoral">21</td>
+    <td class="weekday" bgcolor="lightblue">22</td>
+    <td class="weekday" bgcolor="lightblue">23</td>
+    <td class="weekday" bgcolor="lightblue">24</td>
+    <td class="weekend" bgcolor="lightcoral">25</td>
+    <td class="weekday" bgcolor="lightblue">26</td>
+    <td class="weekday" bgcolor="lightblue">27</td>
+  </tr>
+  <tr>
+    <td class="weekend" bgcolor="lightcoral">28</td>
+    <td class="weekday" bgcolor="lightblue">29</td>
+    <td class="weekday" bgcolor="lightblue">30</td>
+    <td class="weekday" bgcolor="lightblue">31</td>
+    <td class="empty-day"></td>
+    <td class="empty-day"></td>
+    <td class="empty-day"></td>
+  </tr>
+</table>
+</div>
+</body>
+</html>
